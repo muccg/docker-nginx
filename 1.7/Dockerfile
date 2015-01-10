@@ -7,4 +7,4 @@ COPY nginx /etc/nginx
 
 EXPOSE 80 443
 
-CMD ["nginx"]
+CMD ["nginx", "-g", "daemon off;"]
