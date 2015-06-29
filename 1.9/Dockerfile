@@ -1,5 +1,5 @@
 #
-FROM nginx:1.8
+FROM nginx:1.9
 MAINTAINER https://github.com/muccg
 
 RUN rm -rf /etc/nginx
