@@ -1,6 +1,6 @@
 #
 FROM nginx:1.7
-MAINTAINER ccg <devops@ccg.murdoch.edu.au>
+MAINTAINER https://github.com/muccg
 
 RUN rm -rf /etc/nginx
 COPY nginx /etc/nginx
