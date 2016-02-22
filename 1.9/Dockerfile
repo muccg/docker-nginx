@@ -4,6 +4,7 @@ MAINTAINER https://github.com/muccg
 
 RUN rm -rf /etc/nginx
 COPY nginx /etc/nginx
+COPY nginx/mime.types /etc/mime.types
 RUN mkdir -p /data && chown nginx:nginx /data
 
 VOLUME /data
