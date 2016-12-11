@@ -1,5 +1,5 @@
 #
-FROM nginx:1.10.0-alpine
+FROM nginx:1.10-alpine
 MAINTAINER https://github.com/muccg
 
 RUN rm -rf /etc/nginx
