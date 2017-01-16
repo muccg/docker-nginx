@@ -1,6 +1,6 @@
 #
-FROM nginx:1.10-alpine
-MAINTAINER https://github.com/muccg
+FROM nginx:1.11-alpine
+MAINTAINER https://github.com/muccg/
 
 RUN rm -rf /etc/nginx
 COPY nginx /etc/nginx
